@@ -39,3 +39,12 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+echo "node_modules/
+cypress/videos/
+cypress/screenshots/
+cypress/reports/
+mochawesome.json
+*.log
+.DS_Store
+.env
+" > .gitignore
